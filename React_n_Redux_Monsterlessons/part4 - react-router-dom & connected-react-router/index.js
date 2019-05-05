@@ -27,7 +27,7 @@ import Menu from './components/Menu';
 import { createBrowserHistory } from 'history';
 import createRootReducer from './reducers';
 import { routerMiddleware } from 'connected-react-router';
-import { compose } from 'redux';
+// import { compose } from 'redux'; // используем улучшенную версию composeWithDevTools
 import { ConnectedRouter } from 'connected-react-router';
 
 const history = createBrowserHistory();
@@ -37,7 +37,7 @@ const middlewares = [ routerMiddleware(history), thunk ];
 const store = createStore(
     rootReducer,
     // preloadedState, // ??????????????????????????
-    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__( applyMiddleware(...middlewares) )
+    composeWithDevTools( applyMiddleware(...middlewares) )
 );
 // ****************************************************************************
 // ****************************************************************************
