@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import { combineReducers } from 'redux';
 import { handleActions } from 'redux-actions';
 import * as actions from '../actions';
@@ -11,25 +10,23 @@ const tasks = handleActions({
       allIds: [task.id, ...allIds],
     };
   },
+}, { byId: {}, allIds: [] });
+
+const tasksUIState = handleActions({
   // BEGIN
-  [actions.removeTask](state, { payload: { id } }) {
-    const { byId, allIds } = state;
-    return {
-      byId: _.omit(byId, id),
-      allIds: _.without(allIds, id),
-    };
+  [actions.addTask](state, { payload: { task } }) {
+    return { ...state, [task.id]: { theme: 'light' } };
   },
-  [actions.toggleTaskState](state, { payload: { id } }) {
-    const task = state.byId[id];
-    const newState = task.state === 'active' ? 'finished' : 'active';
-    const updatedTask = { ...task, state: newState };
-    return {
-      ...state,
-      byId: { ...state.byId, [task.id]: updatedTask },
+  [actions.inverseTaskTheme](state, { payload: { task } }) {
+    const currentTheme = state[task.id].theme;
+    const mapping = {
+      dark: 'light',
+      light: 'dark',
     };
+    return { ...state, [task.id]: { theme: mapping[currentTheme] } };
   },
   // END
-}, { byId: {}, allIds: [] });
+}, {});
 
 const text = handleActions({
   [actions.addTask]() {
@@ -42,5 +39,6 @@ const text = handleActions({
 
 export default combineReducers({
   tasks,
+  tasksUIState,
   text,
 });
