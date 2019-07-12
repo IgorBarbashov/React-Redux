@@ -1,0 +1,27 @@
+.world {
+    display: flex;
+    justify-content: left;
+    /* width: 1000px; */
+    /* margin-bottom: 50px; */
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    /* width: 100%; */
+}
+
+.cell {
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.life-first {
+    background-color: cadetblue;
+}
+
+.life-second {
+    background-color: mediumpurple;
+}

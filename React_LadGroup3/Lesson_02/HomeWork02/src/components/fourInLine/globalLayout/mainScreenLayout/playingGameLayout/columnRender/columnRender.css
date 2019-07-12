@@ -1,0 +1,8 @@
+.render-column {
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

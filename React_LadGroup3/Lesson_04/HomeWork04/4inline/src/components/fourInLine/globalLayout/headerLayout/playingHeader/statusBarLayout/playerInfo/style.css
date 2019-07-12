@@ -1,0 +1,43 @@
+.player-name {
+    /* border: 1px dashed yellow; */
+    margin: 0px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* background: darkslateblue; */
+}
+
+.current-1 {
+    background:green;
+}
+
+.current-2 {
+    background:blue;
+}
+
+.current-3 {
+    background: purple;
+}
+
+.current-win {
+    /* background:orange; */
+}
+
+.player-name .wins {
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.lose-game {
+    color: gray;
+}
+
+.inner-div {
+    /* border: 1px dashed red; */
+    margin: 0 5px;
+    /* text-align: left; */
+}

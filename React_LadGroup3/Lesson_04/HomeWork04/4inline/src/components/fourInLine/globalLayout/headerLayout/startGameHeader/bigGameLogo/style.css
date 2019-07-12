@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext');
+
+.big-game-logo-name {
+    font-family: 'Pangolin', cursive;
+    color: white;
+    font-size: 76px;
+    margin-bottom: 30px;
+    margin: 0 0 5px;
+
+}
+
+/* .playing {
+    font-size: 26px;
+} */

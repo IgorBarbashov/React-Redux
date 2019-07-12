@@ -1,0 +1,10 @@
+.table {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    width: 480px;
+    height: 380px;
+    background: darkslateblue;
+    border-radius: 20px;
+}

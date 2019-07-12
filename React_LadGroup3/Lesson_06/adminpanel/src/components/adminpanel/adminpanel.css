@@ -1,0 +1,61 @@
+.admin-panel {
+    border: 1px solid gray;
+    background: lightgrey;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.string {
+    font-size: 14px;
+    text-align: left;
+}
+
+.current-string {
+    background: white;
+}
+
+.ordinary-string {
+    background: lightgrey;
+}
+
+.str-header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.str-header-field {
+    width: 200px;
+}
+
+.str-footer {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.str-footer-filed {
+    margin-right: 30px;
+}
+
+.str-header-button {
+    width: 85px;    
+}
+
+.str-warning {
+    color: blue;
+    font-size: 12px;
+    width: 75%;
+}
+
+.text-red {
+    color: red;
+}
+
+.new-warning {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

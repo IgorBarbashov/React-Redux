@@ -1,0 +1,11 @@
+.resetgame {
+    background:white;
+    text-align: center;
+    color: black ;
+    padding: 20px;
+}
+
+.resetgamealert {
+  color: red;
+  font-weight: bold;
+}

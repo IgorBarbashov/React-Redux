@@ -1,0 +1,19 @@
+.messagebox {
+    margin: 50px auto;
+    border: 1px solid black;
+    width: 600px;
+    background:white;
+    text-align: center;
+  }
+
+.alerttext {
+  color: white;
+  font-weight: bold;
+  background: red;
+}
+
+.warningtext {
+  color: white;
+  font-weight: bold;
+  background: orange;
+}

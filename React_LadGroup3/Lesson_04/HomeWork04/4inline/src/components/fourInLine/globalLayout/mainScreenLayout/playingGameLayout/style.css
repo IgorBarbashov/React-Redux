@@ -1,0 +1,41 @@
+.playing-game-layout {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 400px;
+    background-color: #19213e;
+}
+
+.left-column {
+    width: 200px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.rigth-column {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+}
+
+.text-in-play {
+    width: 100%;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Pangolin', cursive;
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.text-in-play .lines-number{
+    font-size: 48px;
+}

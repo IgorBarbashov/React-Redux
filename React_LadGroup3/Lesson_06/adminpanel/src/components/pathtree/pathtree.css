@@ -1,0 +1,24 @@
+.path-tree {
+    font-size: 14px;
+    border: 1px solid gray;
+    background: lightgrey;
+    padding: 5px;
+    width: 150px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.admin-buttons {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55px;
+}
+
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

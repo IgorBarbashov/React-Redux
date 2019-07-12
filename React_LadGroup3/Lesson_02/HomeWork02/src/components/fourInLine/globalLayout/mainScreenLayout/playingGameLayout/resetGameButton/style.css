@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext');
+
+.green-button {
+    background-color: #4eb543;
+    width: 180px;
+    margin-left: 10px;
+    height: 50px;;
+    font-family: 'Pangolin', cursive;
+    font-size: 26px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}

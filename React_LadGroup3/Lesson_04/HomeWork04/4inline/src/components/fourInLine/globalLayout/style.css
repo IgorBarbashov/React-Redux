@@ -1,0 +1,12 @@
+.globalLayout {
+    /* background: lightgrey; */
+    /* border: 1px solid black; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.comp-name-and-data {
+    background: white;
+    font-size: 10px;
+    color: blue;
+}

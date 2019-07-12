@@ -1,0 +1,49 @@
+.cell {
+    border:1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+   }
+
+.size76 {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+   
+.size87 {
+    margin: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.size97 {
+    margin: 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.size107 {
+    margin: 4px;
+    width: 7px;
+    height: 7px;
+}
+
+.cell.player1 {
+    background:green;
+}
+   
+.cell.player2 {
+    background:blue;
+}
+
+.cell.player3 {
+    background:purple;
+}
+
+.cell.winner {
+    background:red;
+}
+
+/* .ai-animation {
+    background:white;   
+} */

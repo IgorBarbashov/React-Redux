@@ -1,0 +1,31 @@
+.chooserooms {
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    background: lightblue;
+}
+
+.roompreview {
+    border: 1px black solid;   
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.roompreview .params {
+    /* background: lawngreen; */
+    width: 500px;
+}
+
+.roompreview .control {
+    /* background: lightcoral; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: none;
+    width: 150px;
+}

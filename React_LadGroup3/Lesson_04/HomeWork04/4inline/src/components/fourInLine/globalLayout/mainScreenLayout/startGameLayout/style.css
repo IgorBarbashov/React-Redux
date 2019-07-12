@@ -1,0 +1,14 @@
+.sg-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    width: 600px;
+    height: 400px;
+    background-color: #19213e;
+    padding: 0 50px;
+}
+
+.temp-text {
+    color: white;
+}

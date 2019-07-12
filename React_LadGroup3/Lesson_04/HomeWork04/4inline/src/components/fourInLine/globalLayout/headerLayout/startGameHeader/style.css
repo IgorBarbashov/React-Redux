@@ -1,0 +1,10 @@
+.sg-header-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    width: 700px;
+    height: 100px;
+    background-color: #19213e;
+    padding: 0;
+}
