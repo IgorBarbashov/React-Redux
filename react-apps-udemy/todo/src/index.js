@@ -1,6 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import AppHeader from "./components/AppHeader";
+import SearchPanel from "./components/SearchPanel";
+import TodoList from "./components/TodoList";
 
-const el = <h1>Hello World</h1>;
+const App = () => {
+  const items = [
+    { label: "Learn React!!!", important: true },
+    { label: "Build Awesome App!!!", important: false },
+    { label: "Learn ES6!!!", important: true }
+  ];
+  return (
+    <div>
+      <AppHeader />
+      <SearchPanel />
+      <TodoList items={items} />
+    </div>
+  );
+};
 
-ReactDOM.render(el, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
