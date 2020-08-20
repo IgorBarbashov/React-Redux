@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { AlertContext } from './ContextContext';
+import { useAlert } from './ContextContext';
 
 export const Main = () => {
-  const { toggleAlert } = useContext(AlertContext);
+  const { toggleAlert } = useAlert();
 
   return (
     <>
